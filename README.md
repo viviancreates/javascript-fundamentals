@@ -39,7 +39,7 @@ This is my workspace for learning and practicing front-end development, includin
 Project:
 Website Summative 
 
-Location:                         [`website_summative_assessment/`](./website_summative_assessment)    
+Location:                         [`website_summative_assessment/`](./assessments/website_summative_assessment)    
 
 Description:
 Hiking blog website with Bootstrap and forms to learn CSS and HTML
