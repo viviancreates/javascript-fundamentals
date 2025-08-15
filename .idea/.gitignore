@@ -1,0 +1,9 @@
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+out/
+
+# Keep default ignores
+/shelf/
+/workspace.xml
+/mavenHomeManager.xml
