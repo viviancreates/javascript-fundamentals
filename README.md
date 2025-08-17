@@ -18,6 +18,9 @@ This is my workspace for learning and practicing front-end development, includin
 - [`practice/`](./practice)  
   Exercises, coding drills, and experimental code
 
+- [`react-playground/`](./react-playground)  
+  Play around with react, including follow demos
+
 ## Topics Covered
 
 ### JavaScript
