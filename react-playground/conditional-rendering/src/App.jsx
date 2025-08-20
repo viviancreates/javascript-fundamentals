@@ -1,22 +1,16 @@
-import RectangleCalculatorButton from './components/RectangleCalculatorButton'
-import RectangleCalculatorLive from './components/RectangleCalculatorLive'
+import './components/SpoilerButton.css';
+import SpoilerButton1 from './components/SpoilerButton1';
+import SpoilerButton2 from './components/SpoilerButton2';
 
 function App() {
+
   return (
     <>
-      <div className="container mt-4">
-        <h1 className="text-center mb-5">Rectangle Area Calculators</h1>
-        <div className="row">
-          <div className="col-md-6">
-            <RectangleCalculatorButton />
-          </div>
-          <div className="col-md-6">
-            <RectangleCalculatorLive />
-          </div>
-        </div>
-      </div>
+      {/* <SpoilerButton1 /> */}
+      <SpoilerButton2 />
     </>
   )
 }
 
 export default App
+
