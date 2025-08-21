@@ -8,6 +8,9 @@ This is my workspace for learning and practicing front-end development, includin
 
 - [`demos/`](./demos)  
   Instructor walkthroughs, lecture code, and example-driven projects
+  - [`movieapi/`](./demos/movieapi)  
+  Java backend API project (Spring Boot, used to practice building APIs and connecting front to back).  
+  Connected to the **fetch demo** (React frontend) for learning full stack requests/responses.
 
 - [`mls_exercises/`](./mls_exercises)  
   Assignments from the Apprenti curriculum, organized by topic
