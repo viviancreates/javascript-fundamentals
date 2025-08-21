@@ -10,28 +10,18 @@ function MovieSummary() {
     useEffect(() => {
         const fetchMovieSummaries = async () => {
             try {
-                // mark the component as loading
                 setLoading(true);
-
-                //call the api
-                const response = await fetch(`http://localhost:8080/api/movies/summaries`);
-
-                //check for a bad response
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-
                 const data = await getMovieSummaries();
                 setMovies(data);
-                
             } catch (err) {
                 setError(err);
             } finally {
                 setLoading(false);
-            }
+            }   
         }
-     
+        
         fetchMovieSummaries();
+        
     }, []); // empty array, only run effect on first load
 
     if (loading) {
