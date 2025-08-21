@@ -1,10 +1,12 @@
-package com.example.movieapi.mock;
+package com.example.movieapi.repository.mock;
 import com.example.movieapi.model.Genre;
 import com.example.movieapi.repository.GenreRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@Repository
 public class GenreRepositoryMock implements GenreRepository {
     private final Map<Integer, Genre> genres = new HashMap<>();
     private final AtomicInteger idCounter = new AtomicInteger(1);
@@ -25,6 +27,7 @@ public class GenreRepositoryMock implements GenreRepository {
         save(new Genre(null, "Documentary"));
         save(new Genre(null, "Fantasy"));
     }
+    //nulls will help make it look like an auto increment
 
     @Override
     public List<Genre> findAll() {

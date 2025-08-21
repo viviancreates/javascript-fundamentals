@@ -1,13 +1,15 @@
-package com.example.movieapi.mock;
+package com.example.movieapi.repository.mock;
 import com.example.movieapi.model.Movie;
 import com.example.movieapi.model.MovieSummary;
 import com.example.movieapi.repository.MovieRepository;
+import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
+@Repository
 public class MovieRepositoryMock implements MovieRepository {
     private final Map<Integer, Movie> movies = new HashMap<>();
     private final AtomicInteger idCounter = new AtomicInteger(1);

@@ -1,4 +1,4 @@
-package com.example.movieapi.mock;
+package com.example.movieapi.repository.mock;
 import com.example.movieapi.model.Rating;
 import com.example.movieapi.repository.RatingRepository;
 import org.springframework.stereotype.Repository;
